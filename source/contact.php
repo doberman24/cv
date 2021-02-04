@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/cv/css/style-cont.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat&Alternates=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <title>Контакты</title>
+</head>
+<body>
+
+    <header class="header-main">
+        <div class="header-name"><p></p>Самушенков Анатолий</p></div>
+        <div class="header-menu"><a href="/cv/index.html">Главная</a></div>
+        <div class="header-menu"><a href="/cv/source/experience.html">Опыт работы</a></div>
+        <div class="header-menu"><a href="/cv/source/education.html">Образование</a></div>
+        <div class="header-menu"><a href="/cv/source/project.html">Мои проекты</a></div>
+        <div class="header-menu"><a href="/cv/source/contact.php">Обо мне</a></div>
+    </header>
+
+    <main>
+        <div class="main-background">
+            <div class="main-contact">
+                <div class="form-contact">
+                    <h1>Свяжитесь со мной</h1>
+                    <form action="/cv/source/message.php" method="post">
+                        <fieldset>
+                            <legend>Отправьте мне сообщение</legend>
+                            <div class="input-form name">
+                                <label for="name" Ваше имя>
+                                <input type="text" name="name" placeholder="Укажите свое имя" required>
+                            </div>
+                            <div class="input-form email">
+                                <input type="email" name="email" placeholder="Укажите свой email" required>
+                            </div>
+                            <div class="input-form phone">
+                                <input type="text" name="phone" placeholder="Укажите телефон" required>
+                            </div>
+                            <div class="input-form message">
+                                <textarea name="message" cols="50" rows="6" placeholder="Введите свое сообщение..."></textarea>
+                            </div>
+                            <div class="input-form button-submit">
+                                <input type="submit" value="Отправить сообщение">
+                            </div>
+                        </fieldset>
+                    </form> 
+                </div>
+                <div class="my-contact">
+                    <h2>Мои контакты:</h2>
+                    <h2 class="contact-name">Самушенков Анатолий</h2>
+                    <h2 class="contact-exp">Программист</h2>
+                    <h3>Телефон:</h3>
+                    <p><a href="phone: +7(921)331-24-39">+7(921)331-24-39</a></p>
+                    <h3>Email:</h3>
+                    <p><a href="mailto: doberman24@yandex.ru">doberman24@yandex.ru</a></p>
+                    <div class="social-networks">
+                        <a href="https://vk.com/doberman242"><img src="/cv/img/l_vk.svg" width="35px" alt="fb"></a>
+                        <a href="https://www.facebook.com/profile.php?id=1690494717"><img src="/cv/img/l_fb.svg" width="35px" alt="fb"></a>
+                        <a href="https://www.instagram.com/anatoliisamushenkov/"><img src="/cv/img/l_insta.svg" width="35px" alt="fb"></a>
+                        <a href="https://github.com/doberman24"><img src="/cv/img/l_git.svg" width="35px" alt="fb"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer-main">
+        <a class="footer-email" href="mailto: doberman24@yandex.ru">doberman24@yandex.ru</a>
+        <a class="footer-phone" href="phone: +7(921)331-24-39">+7(921)331-24-39</a>
+    </footer>
+</body>
+</html>

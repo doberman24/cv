@@ -1,0 +1,142 @@
+body {
+    background-color: #000000;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: #a4f4ff;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    color: #a4f4ff;
+    text-decoration: none;
+}
+
+.header-main {
+    margin-top: -8px;
+    padding-top: 50px;
+    line-height: 25px;
+}
+
+.header-name {
+    width: 48%;
+    padding-left: 20px;
+    font-size: 28px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.header-menu {
+    font-size: 20px;
+    margin-left: 3%;
+    display: inline-block;
+}
+
+.main-background {
+    height: 650px;
+    background-color: rgb(82, 161, 165);
+    background-image: url("/cv/files/back-ground-main.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.main-info {
+    width: 60%;
+    height: 90%;
+    margin-left: 20%;
+    margin-top: 8%;
+    display: inline-block;
+}
+
+.background-photo {
+    width: 42%;
+    height: 86%;
+    overflow: hidden;   
+    display: inline-block;
+    border-radius: 10px 0 0 0;
+}
+
+.photo {
+    width: 100%;
+    margin-left: 2px;
+}
+
+.about-me {
+    display: inline-block;
+    overflow: auto;
+    vertical-align: top;
+    margin-left: -5px;
+    width: 58%;
+    height: 86%;
+    text-align: justify;
+    background-color: rgb(30, 61, 63);
+    opacity: 90%;
+    
+}
+
+.about-me p {
+    padding: 0 3%;
+    font-size: 19px;
+    text-indent: 35px;
+}
+
+.ps {
+    margin-top: 50px;
+}
+
+.thanks {
+    width: 94%;
+    text-align: right;
+    margin-left: 3%;
+}
+
+.social-networks {
+    margin-top: -4px;
+    width: 100%;
+    height: 14%;
+    text-align:center;
+    background-color: rgb(13, 25, 26);
+    border-radius: 0 0 10px 10px;
+    display: inline-block;
+}
+
+.social-networks a {
+    position: relative;
+    top: 25%;
+    width: 15%;
+    height: 50%;
+    display: inline-block;
+}
+
+.footer-main {
+    height: 190px;
+    font-size: 15px;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 25px;    
+}
+
+.footer-main a {
+    margin-top: 7%;
+    margin-left: 30px;
+    width: 17%;
+    text-align: left;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.footer-email {
+    padding-left: 35px;
+    background-image: url("/cv/img/l_email.svg");
+}
+
+.footer-phone {
+    padding-left: 35px;
+    background-image: url("/cv/img/l_phone.svg");
+}
+
+.hello {
+    font-size: 35px;
+    padding-left: 3%;
+    font-weight: 700;
+}
