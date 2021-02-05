@@ -41,21 +41,28 @@ a {
 }
 
 .main-contact {
-    width: 60%;
+    width: 80%;
     height: 90%;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 8%;
-    background-color: rgb(30, 61, 63);
     display: inline-block;
-    border-radius: 10px;
     opacity: 90%;   
 }
 
+@keyframes move-form {
+    from {margin-left: -25px; margin-top: -50px; opacity: 0;};
+    to {margin-left: 0; margin-top: 0; opacity: 100%;};
+}
 .form-contact {
+    animation-name: move-form;
+    animation-duration: 1s;
+    background-color: rgb(30, 61, 63);
     display: inline-block;
-    width: 60%;
+    width: 46%;
+    margin-left: 12%;
+    padding-right: 2%;
     height: 100%;
-    opacity: 80%;
+    border-radius: 10px 0 0 10px;
 }
 
 h1 {
@@ -89,19 +96,26 @@ fieldset {
     border-color: rgb(47, 82, 85);
     border-radius: 7px;
     margin: 0% 4% 0 4%;
-    height: 40px;
+    height: 30px;
     font-family: "Montserrat", sans-serif;
     color: #a4f4ff;
 }
 
+@keyframes move-contact {
+    from {margin-left: 300px; margin-top: -50px; opacity: 0;};
+    to {margin-left: 0; margin-top: 0; opacity: 100%;};
+}
 .my-contact {
+    animation-name: move-contact;
+    animation-duration: 1s;
+    background-color: rgb(30, 61, 63);
     display: inline-block;
-    margin-top: 40px;
     vertical-align: top;
-    width: 38%;
-    height: 94%;
+    width: 30%;
+    height: 100%;
     text-align: center;
-    margin-left: 14px;
+    margin-left: -5px;
+    border-radius: 0 10px 10px 0;
 }
 
 .contact-name {
@@ -124,7 +138,7 @@ h3 {
     padding-top: 2px;
 }
 
-.social-networks {
+.social-networks, .head {
     margin-top: 15%;
 }
 
