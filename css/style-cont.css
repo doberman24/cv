@@ -18,11 +18,17 @@ a {
 }
 
 .header-name {
-    width: 48%;
+    width: 35%;
     padding-left: 20px;
     font-size: 28px;
     text-transform: uppercase;
     display: inline-block;
+}
+
+.menu {
+    display: inline-block;
+    width: 61%;
+    text-align: right;
 }
 
 .header-menu {
