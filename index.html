@@ -6,7 +6,7 @@
     <link href='http://fonts.googleapis.com/css?family=Montserrat&Alternates=latin,cyrillic' rel='stylesheet' type='text/css'>
     <title>Самушенков А.И.</title>
 </head>
-<body>
+<body class="page">
 
     <header class="header-main">
         <div class="header-name"><p></p>Самушенков Анатолий</p></div>
@@ -22,9 +22,11 @@
 
     <main>
         <div class="main-background">
+            <button class="change-mode">Изменить на <span class="dark-word">темную</span><span class="light-word">светлую</span> тему</button>
             <div class="main-info">
                 <div class="background-photo">
-                    <img class="photo" src="files/my_photo.jpg" alt="Фото">
+                    <img class="photo" src="files/l-my_photo.jpg" alt="Фото">
+                    <img class="dark-photo" src="files/my_photo.jpg" alt="Фото">
                 </div>
                 <div class="about-me">
                     <h1 class="hello">Здравствуйте!</h1>                    
@@ -41,10 +43,18 @@
                     </div>
                 </div>
                 <div class="social-networks">
-                    <a href="https://vk.com/doberman242"><img src="img/l_vk.svg" width="35px" alt="fb"></a>
-                    <a href="https://www.facebook.com/profile.php?id=1690494717"><img src="img/l_fb.svg" width="35px" alt="fb"></a>
-                    <a href="https://www.instagram.com/anatoliisamushenkov/"><img src="img/l_insta.svg" width="35px" alt="fb"></a>
-                    <a href="https://github.com/doberman24"><img src="img/l_git.svg" width="35px" alt="fb"></a>
+                    <div class="dark">
+                        <a href="https://vk.com/doberman242"><img src="img/l_vk.svg" width="35px" alt="fb"></a>
+                        <a href="https://www.facebook.com/profile.php?id=1690494717"><img src="img/l_fb.svg" width="35px" alt="fb"></a>
+                        <a href="https://www.instagram.com/anatoliisamushenkov/"><img src="img/l_insta.svg" width="35px" alt="fb"></a>
+                        <a href="https://github.com/doberman24"><img src="img/l_git.svg" width="35px" alt="fb"></a>
+                    </div>
+                    <div class="light">
+                        <a href="https://vk.com/doberman242"><img src="img/vk.svg" width="35px" alt="fb"></a>
+                        <a href="https://www.facebook.com/profile.php?id=1690494717"><img src="img/fb.svg" width="35px" alt="fb"></a>
+                        <a href="https://www.instagram.com/anatoliisamushenkov/"><img src="img/insta.svg" width="35px" alt="fb"></a>
+                        <a href="https://github.com/doberman24"><img src="img/git.svg" width="35px" alt="fb"></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -55,5 +65,8 @@
         <a class="footer-email" href="mailto: doberman24@yandex.ru">doberman24@yandex.ru</a>
         <a class="footer-phone" href="phone: +7(921)331-24-39">+7(921)331-24-39</a>
     </footer>
+
+    <script src="/cv/js/theme.js"></script>
+
 </body>
 </html>

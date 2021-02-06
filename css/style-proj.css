@@ -1,14 +1,16 @@
 body {
-    background-color: #000000;
+    background-color: #ffffff;
+    color: #000000;
     margin-left: 0px;
     margin-right: 0px;
-    color: #a4f4ff;
     font-family: "Montserrat", sans-serif;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 a {
-    color: #a4f4ff;
+    color: #000000;
     text-decoration: none;
+    transition: color 0.5s;
 }
 
 .header-main {
@@ -39,23 +41,46 @@ a {
 
 .main-background {
     height: 650px;
-    background-color: rgb(82, 161, 165);
-    background-image: url("/cv/files/back-ground-main.png");
-    background-attachment: fixed;
+    background-image: url("/cv/files/l-background6.jpg");
     background-position: right;
+    background-attachment: fixed;
     background-size: cover;
+}
+
+.change-mode {
+    position: absolute;
+    width: 18%;
+    height: 45px;
+    margin-top: 10px;
+    right: 1%;
+    background-color: rgb(233, 233, 233, 0.5);
+    font-family: "Montserrat", sans-serif;
+    font-size: 90%;
+    border-radius: 10px;
+    border: rgb(182, 182, 182) solid 4px;
+    transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+
+.dark-word {
+    display: inline;
+}
+
+.light-word {
+    display: none;
 }
 
 .main-project {
     display: inline-block;
-    opacity: 90%;
+    opacity: 70%;
     width: 60%;
     height: 90%;
     margin-left: 20%;
     margin-top: 8%;
-    background-color: rgb(30, 61, 63);
+    background-color: rgb(182, 182, 182);
+    color: #000000;
     border-radius: 10px;
     overflow: auto;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 .main-project h3 {
@@ -65,8 +90,8 @@ a {
 
 .project {
     width: 100%;
-    border-bottom: #a4f4ff 4px solid;
-    border-image: linear-gradient(to right, #a4f4ff 0%, transparent 100%) 1;
+    border-bottom: #000000 4px solid;
+    border-image: linear-gradient(to right, #000000 0%, transparent 100%) 1;
 }
 
 .screen {
@@ -101,10 +126,63 @@ a {
 
 .footer-email {
     padding-left: 35px;
-    background-image: url("/cv/img/l_email.svg");
+    background-image: url("/cv/img/email.svg");
 }
 
 .footer-phone {
     padding-left: 35px;
+    background-image: url("/cv/img/phone.svg");
+}
+
+/*Темная тема*/
+.dark-theme {
+    background-color: #000000;
+    color: #a4f4ff;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.dark-theme a {
+        color: #a4f4ff;
+        transition: color 0.5s;
+}
+
+.dark-theme .main-background {
+    background-color: rgb(82, 161, 165);
+    background-image: url("/cv/files/back-ground-main.png");
+}
+
+.dark-theme .change-mode {
+    background-color: rgb(30, 61, 63, 0.8);
+    color: #a4f4ff;
+    border: #a4f4ff solid 4px;
+    transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+
+.dark-theme .light-word {
+    display: inline;
+}
+
+.dark-theme .dark-word {
+    display: none;
+}
+
+.dark-theme .main-project {
+    background-color: rgb(30, 61, 63);
+    color: #a4f4ff;
+    opacity: 90%;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.dark-theme .project {
+    width: 100%;
+    border-bottom: #a4f4ff 4px solid;
+    border-image: linear-gradient(to right, #a4f4ff 0%, transparent 100%) 1;
+}
+
+.dark-theme .footer-email {
+    background-image: url("/cv/img/l_email.svg");
+}
+
+.dark-theme .footer-phone {
     background-image: url("/cv/img/l_phone.svg");
 }
