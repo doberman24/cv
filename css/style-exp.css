@@ -55,6 +55,10 @@ li {
     display: inline-block;
 }
 
+.experience-experience {
+    text-decoration: overline;
+}
+
 .main-background {
     height: 650px;
     background-image: url("/cv/files/l-background6.jpg");

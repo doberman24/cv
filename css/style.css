@@ -47,6 +47,10 @@ a {
     background-size: cover;
 }
 
+.main-main {
+    text-decoration: overline;
+}
+
 .change-mode {
     position: absolute;
     width: 18%;

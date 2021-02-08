@@ -47,6 +47,10 @@ a {
     background-size: cover;
 }
 
+.project-project {
+    text-decoration: overline;
+}
+
 .change-mode {
     position: absolute;
     width: 18%;
@@ -105,6 +109,31 @@ a {
 .screen p {
     font-size: 15px;
     margin-top: -2px;
+}
+
+.note {
+    border-bottom: dashed 0.5px;
+    /*text-decoration: underline dashed 0.5px;*/
+}
+
+.help {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: 40%;
+    top: 40%;
+    left: 30%;
+    opacity: 90%;
+    padding: 0 10px;
+}
+
+.h-help {
+    text-transform: uppercase;
+    border-bottom: dashed 0.5px;
+}
+
+.git {
+    font-weight: 700;
 }
 
 .footer-main {
@@ -177,6 +206,10 @@ a {
     width: 100%;
     border-bottom: #a4f4ff 4px solid;
     border-image: linear-gradient(to right, #a4f4ff 0%, transparent 100%) 1;
+}
+
+.dark-theme .help {
+    background-color: #000000;
 }
 
 .dark-theme .footer-email {

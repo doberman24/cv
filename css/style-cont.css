@@ -39,6 +39,10 @@ a {
     display: inline-block;
 }
 
+.contact-contact {
+    text-decoration: overline;
+}
+
 .main-background {
     height: 650px;
     background-image: url("/cv/files/l-background6.jpg");

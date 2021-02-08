@@ -45,6 +45,14 @@ h1 {
     display: inline-block;
 }
 
+.main-main {
+    text-decoration: overline;
+}
+
+.education-education {
+    text-decoration: overline;
+}
+
 .main-background {
     height: 650px;
     background-image: url("/cv/files/l-background6.jpg");
